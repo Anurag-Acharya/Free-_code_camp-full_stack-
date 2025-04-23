@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1 id="title">Nepal shopping app survey</h1>
+      <p id="description">Thank you for giving time for the survey.Your valuable feedback will help us to improve our service more.</p>
+    </header>
+
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" name="name" placeholder="Anurag Acharya" required>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+        <label for="age" id="number-label" >Age</label>
+        <input type="number" id="number" min="4" max="10" Placeholder="00">
+        <label for="quality">Quality</label>
+        <select name="quality" id="dropdown">
+          <option value="poor">Poor</option>
+          <option value="average">Average</option>
+          <option value="excellent" selected>Excellent</option>
+          <option value="good">Good</option>
+        </select>
+        <p>What is the best service of our app(can select multiple)?</p>
+        <input type="radio" id="discount" name="service" value="discount">
+        <label for="discount">Discount in app</label>
+        <input type="radio" id="customer_care" name="service" value="customer_care">
+       <label for="customer_care">Customer_service</label>
+
+<label for="comments">Comments</label> 
+<textarea id="comments"></textarea>
+
+<p>What features do  you use?</p>
+<input type="checkbox" id="delivery" name="feature" value="delivery">
+<label for="delivery">Fast delivery</label>
+
+<input type="checkbox" id="tracking" name="feature" value="tracking">
+<label for="tracking">Tracking</label>
+<button id="submit" type="submit">Submit</button>
+      </form>
+      
+    </main>
+  </body>
+</html>
