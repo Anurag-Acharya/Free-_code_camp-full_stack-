@@ -1,0 +1,28 @@
+a {
+    color:brown;
+    text-decoration:none;
+    
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:blue;
+}
+
+a:focus{
+    outline:2px solid black;
+    background:burlywood;
+}
+
+a:active{
+    color:crimson;
+}
+
+.todo-list{
+    list-style-type:square;
+
+}
+
